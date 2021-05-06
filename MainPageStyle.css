@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.title{
+  text-align: justify;
+  font-family: 'Krona One', sans-serif;
+  color: #e84545;
+  margin-top: 100px;
+}
+.text{
+  text-align: justify;
+  font-family: 'Krona One', sans-serif;
+  color: #e84545;
+  margin-top: 50px;
+}
+
+body{
+  background-color:#53354a;
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  position: fixed;
+  background-color: #2b2e4a;
+  padding-right: 60px;
+  margin: 0px;
+  width: 100%;
+  height: 60px;
+  font-family: 'Krona One', sans-serif;
+  font-size: 12px;
+}
+
+li > a{
+  padding: 10px;
+  color: #e84545;
+}
+
+.body{
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-behavior: smooth;
+  margin-bottom: 200px;
+}
+
+#presentation{
+  width: 100%;
+  height: 625px;
+  background-color: #903749;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-picture{
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #2b2e4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-picture > img{
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.portfolio-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  font-family: 'Krona One', sans-serif;
+  color: #2b2e4a;
+}
+
+.portfolio-text > h1, h2{
+  margin: 10px;
+}
+
+.portfolio-text > h1{
+  font-size: 40px;
+}
+
+#education{
+  width: 70%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.education-text{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+.education-video{
+  width: 50%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe{
+  width: 50%;
+  height: 50%;
+}
+
+#about{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+button{
+  font-family: 'Krona One', sans-serif;
+  background-color: #2b2e4a;
+  padding: 15px;
+  margin-top: 50px;
+  border-style: none;
+  border-radius: 25px;
+}
+
+button > a{
+  color: #e84545;
+}
