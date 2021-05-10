@@ -2,6 +2,7 @@
   margin: 0;
   text-decoration: none;
   box-sizing: border-box;
+  color: #dddddd !important;
 }
 
 .title{
@@ -64,6 +65,11 @@ li > a{
   padding: 10px;
   color: #e84545;
   font-size: 18px;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
 }
 
 .body{
@@ -174,7 +180,6 @@ iframe{
 .card-body, .card{
   position: static;
   background-color: #903749;
-  border: solid. 10px, #903749;
   border-radius: 25px;
   font-family: 'Krona One', sans-serif;
   color: #2b2e4a;
